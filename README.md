@@ -11,4 +11,10 @@ The results in the paper are given by test_score_bat_new.m (it takes much time).
 To see a result of score matching estimation, use run_score_bat_corr_new.
   
 run_score_bat_corr_new(n,d,type)
+  n: sample size
+  d: dimensionality
+  type: "Gauss" or "Gmix" (Gmix is Gaussian mixture of two components)
   
+For kernel density estimation, use run_kde_bat_corr(n,d,type). 
+
+
